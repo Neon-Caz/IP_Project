@@ -8,7 +8,7 @@ dframe=pd.DataFrame(df1)
 
 print(dframe)
 
-print("From the above table, choose the suitable informaton:-")
+print("From the above table, choose the suitable informaton: ")
 
 df2={"id":[1],"vehicle_number":[input("Enter your vehicle number:-")],
      "vehicle_type_id":[int(input("Choose your vehicle type"))],"in_time":[input("Enter in time:-")],
